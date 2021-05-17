@@ -1,17 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Authors>Isac Fuentes</Authors>
-    <Company>Isac Fuentes</Company>
+    <Authors>Isac Josep Fuentes</Authors>
+    <Company>Isac Josep Fuentes</Company>
     <Product>AutoInject</Product>
     <Description>This project is used to automatically generate your depencendy injections for your Web NET Core.</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/josepfs1995/AutoInject</RepositoryUrl>
     <PackageReleaseNotes>This project is used to automatically generate your depencendy injections for your Web NET Core.</PackageReleaseNotes>
-    <PackageId>autoinject-jf</PackageId>
+    <PackageId>JF.AutoInject</PackageId>
     <Version>1.0.1</Version>
+    <PackageTags>AutoInject</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
