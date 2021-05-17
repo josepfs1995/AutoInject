@@ -12,7 +12,9 @@ AutoInject in .NET Core
 
 ## Installation
 Install Package:
+```
  Install-Package autoinject-jf -Version 1.0.1
+ ```
 First step: You need write this code in the section Configure in your startup:
 
 Necesitas escribir este codigo en la sección Configure de tu startup:
