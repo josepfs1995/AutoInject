@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/josepfs1995/AutoInject</RepositoryUrl>
     <PackageReleaseNotes>This project is used to automatically generate your depencendy injections for your Web NET Core.</PackageReleaseNotes>
     <PackageId>JF.AutoInject</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageTags>AutoInject</PackageTags>
   </PropertyGroup>
 

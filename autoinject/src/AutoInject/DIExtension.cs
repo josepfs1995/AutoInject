@@ -15,11 +15,12 @@ namespace AutoInject
     {
       _services = services;
       _serviceLifetime = serviceLifetime;
-      var assemblyNames = assembly.GetReferencedAssemblies();
+      var assemblyNames = assembly.GetReferencedAssemblies().ToList();
+      assemblyNames.Add(assembly.GetName());
       GetAllClass(services, DiscardMicrosoftAndSystemAssemblies(assemblyNames));
       return services;
     }
-    private static IEnumerable<AssemblyName> DiscardMicrosoftAndSystemAssemblies(AssemblyName[] assemblyNames)
+    private static IEnumerable<AssemblyName> DiscardMicrosoftAndSystemAssemblies(IEnumerable<AssemblyName> assemblyNames)
     {
       return assemblyNames.Where(x => !x.Name.StartsWith("Microsoft.") && !x.Name.StartsWith("System."));
     }
